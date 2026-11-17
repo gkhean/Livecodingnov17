@@ -21,7 +21,7 @@ public class Livecoding2 {
     static double computeAverage(double total, double count){
     //Base
         if (count<=0){
-        return 0;
+        return 0.0;
     }
     // Recursive
     return (double) total / count;
